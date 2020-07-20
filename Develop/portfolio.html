@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!--BG IMG-->
+    <style type = "text/css">
+        body {
+        background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&w=1000&q=80");
+        }
+    </style>
+
+    <title>Portfolio Page</title>
+
+
+</head>
+
+<body>
+    <!--Navbar added from Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <!--Btn from Boostrap on Navbar left-->
+            <a class="btn btn-info btn-lg" href="index.html">Shannon Trainor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                    <!--portfolio link active-->
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" style="color: white" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--start of page-->
+    <div class="container mt-4 bg-gray">
+        <div class="row">
+            <div class="col-md-9" style="margin: 0 auto">
+                <div class="card border-dark mb-3" style="border: solid;">
+                    <div class="card-header portfolio-header">Portfolio</div>
+                    <div class="port-subheader" style="background-color: rgb(128, 0, 100);">Assignments & Projects Launched via Github</div>
+                </div>
+                <!--start of row within card-->
+                <!--PW GENERATOR-->
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Password Generator</h5>
+                      <p class="card-text">The Password Generator is an app developed to create a random password for the user. The app first runs through a series of prompts regarding what the user would like their password to include (i.e. special characters, uppercase or lowercase letters, etc.) Once the user completes all prompts, a random password is generated for the user.  This application was developed using basic HTML, CSS, and beginner Javascript. </p>
+                      <!--DEPLOY LINK-->
+                      <a class="github-link" href= "https://shannontrainor.github.io/password-generator/" > Password Generator Deployed via Github</a>
+                      <br>
+                      <!--REPO LINK-->
+                      <a class="github-link" href= "https://github.com/shannontrainor/password-generator" > Password Generator Github Repository </a>
+                        <!--End CardBody Div-->
+                    </div>
+                    <!--PHOTO-->
+                    <img src="photos/psw-gen.png" class="card-img-top" alt="password-generator">
+                </div>
+                <br>
+
+                <!--WORK DAY CALENDAR-->
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Interactive Work Day Calendar</h5>
+                      <p class="card-text">The Work Day Scheduler is an interative calendar app. The current date is displayed at the top of the calendar. The calendar allows the user to input data at the time they choose (each hour between 9AM - 5PM), and will save the input to local storage when the user presses the save button on the right side. When the user comes back to the app, their input will display where it has been entered prior. The calendar also displays different colors depending on the time of day; Gray meaning the time block has passed, red meaning the present time block, and green meaning future time block. This app was developed using HTML, CSS, Javascript, and Moment.js.</p>
+                      <!--DEPLOY LINK-->
+                      <a class="github-link" href= "https://shannontrainor.github.io/work-day-scheduler/" > Work Day Calendar Deployed via Github</a>
+                      <br>
+                      <!--REPO LINK-->
+                      <a class="github-link" href= "https://github.com/shannontrainor/work-day-scheduler" > Work Day Calendar Github Repository </a>
+                        <!--End CardBody Div-->
+                    </div>
+                    <!--PHOTO-->
+                    <img src="photos/day-calendar.png" class="card-img-top" alt="work-day-sched">
+                </div>
+                <br>
+                <!--Project 1-->
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Project 1 - Image Gallery</h5>
+                      <p class="card-text">For Project 1, my group and I developed an Image Gallery App. This app provides the user with a location to search for any type of image or GIF they would like. When the user inputs a keyword into the search bar and clicks the search icon, the image gallery will bring up images and GIFs related to the keyword. On the left side the user will find a dropdown with suggested Genres which will bring up images and GIFs releated to the genre when it is clicked. In addition, when an image or GIF is clicked on, a modal is dispayed on the screen where the user can "like" the image. This app was developed using Javascript, JQuery, ajax calls, and multiple API keys.</p>
+                        <!--DEPLOY LINK-->
+                        <a class="github-link" href= "https://calebwelch1.github.io/Image-Gallery-App/" > Image Gallery Deployed via Github</a>
+                        <br>
+                        <!--REPO LINK-->
+                        <a class="github-link" href= "https://github.com/calebwelch1/Image-Gallery-App" > Image Gallery Github Repository </a>   
+                        <!--End CardBody Div-->                
+                    </div>
+                    <!--PHOTO-->
+                    <img src="photos/img-gallery.png" class="card-img-top" alt="...">
+                </div>
+
+                
+    </div>
+
+    <!--javascript link-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+UNH Coding Bootcamp with hopes to be a Junior Full Stack Developer. So far I am familiar with HTML, CSS, Javascript, JQuery, API, AJAX, Node, MySQL, and Sequelize.
